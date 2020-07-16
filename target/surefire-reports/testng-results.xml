@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60128" started-at="2020-07-16T12:22:13 IST" finished-at="2020-07-16T12:23:13 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60128" started-at="2020-07-16T12:22:13 IST" finished-at="2020-07-16T12:23:13 IST">
+      <class name="basics.FbTitle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:basics.FbTitle@16eabae]" name="setUp" is-config="true" duration-ms="27662" started-at="2020-07-16T12:22:13 IST" finished-at="2020-07-16T12:22:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:basics.FbTitle@16eabae]" name="verifyUrl" duration-ms="62" started-at="2020-07-16T12:23:09 IST" finished-at="2020-07-16T12:23:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:basics.FbTitle@16eabae]" name="tearDown" is-config="true" duration-ms="763" started-at="2020-07-16T12:23:10 IST" finished-at="2020-07-16T12:23:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basics.FbTitle -->
+      <class name="basics.rediffTitle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:basics.rediffTitle@7dc304]" name="setUp" is-config="true" duration-ms="28835" started-at="2020-07-16T12:22:41 IST" finished-at="2020-07-16T12:23:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:basics.rediffTitle@7dc304]" name="verifyUrl" duration-ms="109" started-at="2020-07-16T12:23:09 IST" finished-at="2020-07-16T12:23:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:basics.rediffTitle@7dc304]" name="tearDown" is-config="true" duration-ms="2660" started-at="2020-07-16T12:23:10 IST" finished-at="2020-07-16T12:23:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basics.rediffTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

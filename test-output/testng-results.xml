@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28232" started-at="2020-07-14T06:56:34Z" finished-at="2020-07-14T06:57:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28232" started-at="2020-07-14T06:56:34Z" finished-at="2020-07-14T06:57:02Z">
+      <class name="basics.FbTitle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:basics.FbTitle@286778]" name="setUp" is-config="true" duration-ms="25319" started-at="2020-07-14T06:56:34Z" finished-at="2020-07-14T06:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUrl()[pri:0, instance:basics.FbTitle@286778]" name="verifyUrl" duration-ms="148" started-at="2020-07-14T06:57:00Z" finished-at="2020-07-14T06:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:basics.FbTitle@286778]" name="tearDown" is-config="true" duration-ms="2133" started-at="2020-07-14T06:57:00Z" finished-at="2020-07-14T06:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- basics.FbTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
