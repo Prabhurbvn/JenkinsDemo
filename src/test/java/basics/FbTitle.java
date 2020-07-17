@@ -39,6 +39,13 @@ public class FbTitle
 		Assert.assertEquals(driver.getTitle(), "Facebook");
 	}
 	
+	@Test
+	public void verifyTitle1()
+	{
+		System.out.println("This is Title1");
+	}
+	
+	
 	@AfterTest
 	public void tearDown()
 	{
