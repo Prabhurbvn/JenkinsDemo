@@ -33,6 +33,12 @@ public class FbTitle
 		Assert.assertEquals(driver.getCurrentUrl(),"https://www.facebook.com/");
 	}
 	
+	@Test
+	public void verifyTitle()
+	{
+		Assert.assertEquals(driver.getTitle(), "Facebook");
+	}
+	
 	@AfterTest
 	public void tearDown()
 	{
