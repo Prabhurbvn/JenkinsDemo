@@ -3,6 +3,13 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
+      <class name="basics.GoogleTitle">
+        <methods>
+          <include name="verifyUrl"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- basics.GoogleTitle -->
       <class name="basics.FbTitle">
         <methods>
           <include name="tearDown"/>

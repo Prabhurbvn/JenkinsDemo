@@ -1,8 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 73.602 s <<< FAILURE! - in TestSuite
-basics.FbTitle.verifyTitle  Time elapsed: 0.078 s  <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 85.655 s <<< FAILURE! - in TestSuite
+basics.FbTitle.verifyTitle  Time elapsed: 0.204 s  <<< FAILURE!
 java.lang.AssertionError: expected [Facebook] but found [Facebook – log in or sign up]
 	at basics.FbTitle.verifyTitle(FbTitle.java:39)
+
+basics.GoogleTitle.verifyUrl  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.google.com/] but found [https://www.google.com/?gws_rd=ssl]
+	at basics.GoogleTitle.verifyUrl(GoogleTitle.java:33)
 

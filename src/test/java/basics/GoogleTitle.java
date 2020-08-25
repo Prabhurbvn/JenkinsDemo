@@ -30,7 +30,7 @@ public class GoogleTitle
 	@Test
 	public void verifyUrl()
 	{
-		Assert.assertEquals(driver.getCurrentUrl(),"https://www.google.com/");
+		Assert.assertEquals(driver.getCurrentUrl(),"https://www.google.com/?gws_rd=ssl");
 	}
 	
 	@Test
@@ -39,11 +39,6 @@ public class GoogleTitle
 		Assert.assertEquals(driver.getTitle(), "Google");
 	}
 	
-	@Test
-	public void verifyTitle1()
-	{
-		System.out.println("This is Title1");
-	}
 	
 	
 	@AfterTest
