@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifyUrl"/>
+          <include name="verifyTitle"/>
         </methods>
       </class> <!-- basics.FbTitle -->
     </classes>
