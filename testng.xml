@@ -5,6 +5,7 @@
     <classes>
       <class name="basics.FbTitle"/>
       <class name="basics.rediffTitle"/>
+      <class name="basics.GoogleTitle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
